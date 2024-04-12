@@ -1,0 +1,42 @@
+@keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .btn-primary {
+    animation: jump 1s infinite;
+  }
+  i:hover{
+    color: yellow;
+  }
+  p:hover{
+    color: yellow;
+  }
+  .LOL{
+    color: aqua
+  }
+  .centered {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 58px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+#panierSection{
+    margin-top: 70px;
+}
+
+#favorisSection{
+    margin-top: 70px;   
+}
