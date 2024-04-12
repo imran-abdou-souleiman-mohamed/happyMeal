@@ -2,6 +2,8 @@ const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal');
 const mealDetailsContent = document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
+const recipesPerPage = 6;
+let currentPage = 1;
 
 // Load JSON data from file
 fetch('recette.json')
@@ -50,7 +52,9 @@ fetch('recette.json')
                 mealRecipeModal(recipe);
             }
         }
+        
     }
+    
 });
 
 // Function to create a modal
@@ -74,3 +78,41 @@ function mealRecipeModal(recipe){
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
 }
+
+// function to redirect page
+
+// Modify redirectToPage function to redirect to different pages based on the page number
+function navigateToPage(pageNumber) {
+    if (pageNumber === 1) {
+        window.location.href = 'recette.html'; // Redirect to recette.html for page 1
+    } else {
+        window.location.href = `recette02.html?page=${pageNumber}`; // Redirect to recette02.html with the appropriate page number as a query parameter for other pages
+    }
+}
+
+
+
+
+function displayPagination(totalRecipes){
+    const totalPages = Math.ceil(totalRecipes/recipesPerPage);
+    const paginationContainer = document.getElementById('pagination');
+
+    let html = "";
+    for (let i = 1; i <= totalPages; i++){
+        html += `
+            <li class="page-item ${currentPage === i ? 'active' : ''}">
+                <a class="page-link" href="#" data-page="${i}" onclick="redirectToPage(${i})">${i}</a>
+            </li>
+        `;
+    }
+
+    paginationContainer.innerHTML = html;
+
+    // Add event listener to each pagination link
+    paginationContainer.querySelectorAll('.page-link').forEach(link =>  {
+        link.addEventListener('click', () => {
+            currentPage = parseInt(link.dataset.page);
+            // You can add code here to load the recipes for the selected page
+        });
+    });
+}   
