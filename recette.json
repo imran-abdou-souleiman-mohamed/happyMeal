@@ -32,10 +32,11 @@
           ]
        },
        {
-          "nom":"Salade de quinoa aux légumes grillés",
-          "categorie":"Entrée",
-          "temps_preparation":"30 minutes",
-          "ingredients":[
+         "nom":"Salade de quinoa aux légumes grillés",
+         "categorie":"Entrée",
+         "temps_preparation":"30 minutes",
+         "image": "https://images.ricardocuisine.com/services/recipes/8326-portrait.jpg",         
+         "ingredients": [
              {
                 "nom":"quinoa",
                 "quantite":"200g"

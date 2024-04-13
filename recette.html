@@ -36,7 +36,7 @@
             </div>
             <div class = "meal-name">
               <h3>Poulet aux herbes</h3>
-              <a href = "#" class = "recipe-btn" >Get Recipe</a>
+              <a href = "#" class = "recipe-btn" id="recipeBtn1">Get Recipe</a>
             </div>
           </div> 
           
@@ -47,7 +47,7 @@
             </div>
             <div class = "meal-name">
               <h3>Salade de quinoa aux légumes grillés </h3>
-              <a href = "#" class = "recipe-btn" >Get Recipe</a>
+              <a href = "#" class = "recipe-btn" id="recipeBtn2" >Get Recipe</a>
             </div>
           </div> 
 
@@ -57,7 +57,7 @@
             </div>
             <div class = "meal-name">
               <h3>Tarte aux pommes</h3>
-              <a href = "#" class = "recipe-btn" >Get Recipe</a>
+              <a href = "#" class = "recipe-btn" id="recipeBtn3" >Get Recipe</a>
             </div>
           </div> 
 
@@ -67,7 +67,7 @@
             </div>
             <div class = "meal-name">
               <h3>Pâtes Carbonara</h3>
-              <a href = "#" class = "recipe-btn" id="recipeBtn">Get Recipe</a>
+              <a href = "#" class = "recipe-btn" id="recipeBtn4">Get Recipe</a>
             </div>
           </div> 
 
@@ -77,7 +77,7 @@
             </div>
             <div class = "meal-name">
               <h3>Risotto aux champignons</h3>
-              <a href = "#" class = "recipe-btn" id="recipeBtn">Get Recipe</a>
+              <a href = "#" class = "recipe-btn" id="recipeBtn5">Get Recipe</a>
             </div>
           </div> 
 
@@ -87,28 +87,29 @@
             </div>
             <div class = "meal-name">
               <h3>Salade de fruits frais</h3>
-              <a href = "#" class = "recipe-btn" id="recipeBtn">Get Recipe</a>
+              <a href = "#" class = "recipe-btn" id="recipeBtn6">Get Recipe</a>
             </div>
           </div> 
 
          
 
           <nav aria-label="Page navigation example">
-            <ul class="pagination">
+            <ul class="pagination" id="pagination">
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="Previous" onclick="navigateToPage(currentPage - 1)">
                     <span aria-hidden="true">&laquo;</span>
                 </a>
             </li>
-            <li class="page-item"><a class="page-link" href="#" onclick="navigateToPage(1)">1</a></li>
-            <li class="page-item"><a class="page-link" href="#" onclick="navigateToPage(2)">2</a></li>
+            <li class="page-item"><a class="page-link" href="#" >1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+
             <!-- Add onclick event to each pagination link -->
             <li class="page-item">
                 <a class="page-link" href="#" aria-label="Next" onclick="navigateToPage(currentPage + 1)">
                     <span aria-hidden="true">&raquo;</span>
                 </a>
             </li>
-            
+
             </ul>
           </nav>
         </div>
@@ -133,9 +134,7 @@
           <div class = "recipe-meal-img">
             <img src = "food.jpg" alt = "">
           </div>
-          <div class = "recipe-link">
-            <a href = "#" target = "_blank">Watch Video</a>
-          </div> 
+          
         </div>
         
         
