@@ -74,6 +74,7 @@
           "nom":"Tarte aux pommes",
           "categorie":"Dessert",
           "temps_preparation":"1 heure",
+          "image": "https://assets.afcdn.com/recipe/20220128/128250_w1024h1024c1cx1294cy688cxt0cyt0cxb2037cyb1472.webp",
           "ingredients":[
              {
                 "nom":"Pâte brisée",
@@ -114,6 +115,7 @@
           "nom":"Soupe de lentilles",
           "categorie":"Entrée",
           "temps_preparation":"1 heure",
+          "image": "https://beauty-food.fr/wp-content/uploads/2020/10/Soupe_Lentilles.jpg",
           "ingredients":[
              {
                 "nom":"Lentille",
@@ -154,6 +156,7 @@
           "nom":"Pâtes Carbonara",
           "categorie":"Plat principal",
           "temps_preparation":"20 minutes",
+          "image": "https://assets.afcdn.com/recipe/20211214/125831_w1024h1024c1cx866cy866cxt0cyt292cxb1732cyb1732.jpg",
           "ingredients":[
              {
                 "nom":"Pates",
@@ -195,6 +198,7 @@
           "nom":"Risotto aux champignons",
           "categorie":"Plat principal",
           "temps_preparation":"40 minutes",
+          "image": "https://images.ricardocuisine.com/services/recipes/portrait-risotto-mush.jpg",
           "ingredients":[
              {
                 "nom":"Riz",
@@ -238,6 +242,7 @@
           "nom":"Salade de fruits frais",
           "categorie":"Dessert",
           "temps_preparation":"20 minutes",
+          "image":"https://assets.afcdn.com/recipe/20210215/117981_w1024h1024c1cx2652cy2652cxt0cyt0cxb5304cyb5304.webp",
           "ingredients":[
              "Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux",
              "Jus d'orange ou de citron",
@@ -257,6 +262,7 @@
           "nom":"Ratatouille provençale",
           "categorie":"Plat principal",
           "temps_preparation":"1 heure",
+          "image": "https://www.papillesetpupilles.fr/wp-content/uploads/2015/08/Ratatouille-%C2%A9comeirrez-shutterstock.jpg",
           "ingredients":[
              {
                 "nom":"Aubergine",
@@ -298,6 +304,7 @@
           "nom":"Salade César",
           "categorie":"Entrée",
           "temps_preparation":"20 minutes",
+          "image": "https://images.ricardocuisine.com/services/recipes/8440.jpg",
           "ingredients":[
              {
                 "nom":"Laitue",
@@ -338,6 +345,7 @@
           "nom":"Muffins aux myrtilles",
           "categorie":"Dessert",
           "temps_preparation":"30 minutes",
+          "image": "https://odelices.ouest-france.fr/images/recettes/muffins_aux_myrtilles.jpg",
           "ingredients":[
              {
                 "nom":"Farine",
@@ -379,6 +387,7 @@
           "nom":"Lasagnes végétariennes",
           "categorie":"Plat principal",
           "temps_preparation":"1 heure 30 minutes",
+          "image": "https://www.undejeunerdesoleil.com/wp-content/uploads/2020/09/Lasagnes_vegetariennes_recette.jpg",
           "ingredients":[
              {
                 "nom":"Pâte",
@@ -421,6 +430,7 @@
           "nom":"Salade niçoise",
           "categorie":"Entrée",
           "temps_preparation":"20 minutes",
+          "image": "https://images.ricardocuisine.com/services/recipes/9042.jpg",
           "ingredients":[
              {
                 "nom":"Laitue",
@@ -464,6 +474,7 @@
           "nom":"Tiramisu",
           "categorie":"Dessert",
           "temps_preparation":"30 minutes (+ temps de repos)",
+          "image": "https://img.cuisineaz.com/660x660/2023/11/20/i196570-tiramisu-simple.jpg",
           "ingredients":[
              {
                 "nom":"Mascarpone",

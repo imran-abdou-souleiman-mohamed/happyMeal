@@ -48,7 +48,6 @@ fetch('recette.json')
                 mealRecipeModal(recipe);
             }
         }
-        console.log();
     }
 
     // Function to handle pagination click
@@ -63,15 +62,6 @@ fetch('recette.json')
             }
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
     // Function to navigate to a specific page
     function navigateToPage(pageNumber) {
@@ -84,8 +74,6 @@ fetch('recette.json')
 
     // Function to display recipes with pagination
     function displayRecipes(recipes) {
-        currentRecipes = recipes; // Update current recipes
-        
         // Calculate start and end index for the current page
         const startIndex = (currentPage - 1) * recipesPerPage;
         const endIndex = startIndex + recipesPerPage;
